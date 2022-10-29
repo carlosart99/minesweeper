@@ -1,0 +1,25 @@
+.field{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    background-color: aquamarine;
+    padding:10px;
+}
+
+.cell{
+    width:auto;
+    height:70px;
+    background-color: beige;
+    border: 0.05px solid #BAD1C2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide-layer{
+    width:75px;
+    height:75px;    
+    background-color: gray;
+    position: absolute;
+    border: 0.05px solid darkblue;
+}
